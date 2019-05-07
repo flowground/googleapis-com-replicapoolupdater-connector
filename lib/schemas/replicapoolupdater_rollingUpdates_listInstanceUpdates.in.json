@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "filter": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 500,
+            "default": 500
+        },
+        "pageToken": {
+            "type": "string"
+        },
+        "project": {
+            "required": true,
+            "type": "string"
+        },
+        "rollingUpdate": {
+            "required": true,
+            "type": "string"
+        },
+        "zone": {
+            "required": true,
+            "type": "string"
+        },
+        "userIp": {
+            "type": "string"
+        }
+    }
+}
